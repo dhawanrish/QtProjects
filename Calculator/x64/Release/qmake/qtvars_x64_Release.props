@@ -1,0 +1,27 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;NDEBUG</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>C:\Qt\Qt-5.13.0\include;C:\Qt\Qt-5.13.0\include\QtWidgets;C:\Qt\Qt-5.13.0\include\QtGui;C:\Qt\Qt-5.13.0\include\QtANGLE;C:\Qt\Qt-5.13.0\include\QtCore;C:\Qt\Qt-5.13.0\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_LIBS_>C:\Qt\Qt-5.13.0\plugins\styles\qwindowsvistastyle.lib;C:\Qt\Qt-5.13.0\plugins\platforms\qwindows.lib;"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winspool.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\imm32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\oleaut32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\shlwapi.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\wtsapi32.lib";C:\Qt\Qt-5.13.0\lib\Qt5EventDispatcherSupport.lib;C:\Qt\Qt-5.13.0\lib\Qt5FontDatabaseSupport.lib;"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\gdi32.lib";C:\Qt\Qt-5.13.0\lib\qtfreetype.lib;"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\dwrite.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\d2d1.lib";C:\Qt\Qt-5.13.0\lib\Qt5ThemeSupport.lib;C:\Qt\Qt-5.13.0\lib\Qt5AccessibilitySupport.lib;C:\Qt\Qt-5.13.0\lib\Qt5WindowsUIAutomationSupport.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qgif.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qicns.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qico.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qjpeg.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qtga.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qtiff.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qwbmp.lib;C:\Qt\Qt-5.13.0\plugins\imageformats\qwebp.lib;C:\Qt\Qt-5.13.0\lib\Qt5Widgets.lib;"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\uxtheme.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\dwmapi.lib";C:\Qt\Qt-5.13.0\lib\Qt5Gui.lib;C:\Qt\Qt-5.13.0\lib\qtlibpng.lib;C:\Qt\Qt-5.13.0\lib\qtharfbuzz.lib;gdi32.lib;comdlg32.lib;oleaut32.lib;imm32.lib;winmm.lib;ws2_32.lib;ole32.lib;uuid.lib;user32.lib;advapi32.lib;C:\Qt\Qt-5.13.0\lib\Qt5Core.lib;"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\mpr.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\netapi32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\userenv.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\version.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\ws2_32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\kernel32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\user32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\shell32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\uuid.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\ole32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\advapi32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x64\winmm.lib";C:\Qt\Qt-5.13.0\lib\qtpcre2.lib;C:\Qt\Qt-5.13.0\lib\qtmain.lib</Qt_LIBS_>
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);x64\Release\moc;x64\Release\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >Qt-5.13.0</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;gui;widgets</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVars
+      >DEFINES=/-D(\w+)/$1/;INCLUDEPATH=INCPATH/-I(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBS=/(?:\/LIBPATH:(?:\x22[^\x22]+\x22|[^\s]+))|(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBPATH=LIBS/\/LIBPATH:(\x22[^\x22]+\x22|[^\s]+)/$1/</QtBkup_QtVars>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+    <QtBkup_QtBuildConfig
+      >release</QtBkup_QtBuildConfig>
+  </PropertyGroup>
+</Project>
