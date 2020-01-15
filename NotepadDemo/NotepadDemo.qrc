@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/NotepadDemo"/>
+    <qresource prefix="/images">
+        <file>Resources/Copy.ico</file>
+        <file>Resources/Cut.ico</file>
+        <file>Resources/Delete.ico</file>
+        <file>Resources/Save.ico</file>
+        <file>Resources/Paste.ico</file>
+        <file>Resources/Open.ico</file>
+        <file>Resources/Undo.ico</file>
+        <file>Resources/New.ico</file>
+        <file>Resources/Redo.ico</file>
+    </qresource>
+</RCC>
